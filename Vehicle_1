@@ -1,0 +1,30 @@
+<?php
+
+class Vehicle {
+
+  public $name;
+  public $speed;
+  public $mileage;
+  public $seatingCapacity;
+  public $fare = 100;
+
+  public function __construct($name, $speed, $mileage){
+    $this->name = $name;
+    $this->speed = $speed;
+    $this->mileage = $mileage;
+  }
+
+  public function getInfo(){
+    return $this->name . "<br>" . $this->speed . "<br>" . $this->mileage;
+  } 
+
+  public function seating_capacity($seatingCapacity) {
+    $this->seatingCapacity;
+  }
+
+  public function totalFare(){
+  }
+  
+}
+
+?>
