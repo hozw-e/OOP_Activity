@@ -1,0 +1,8 @@
+<?php
+
+include Vehicle_1.php;
+
+class Bus extends Vehicle {
+}
+
+?>
