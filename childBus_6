@@ -1,0 +1,15 @@
+<?php
+
+include Vehicle_1.php;
+
+class Bus extends Vehicle {
+
+  public $maintenanceCharge = 0.10;
+  
+  public function totalFare(){
+    return ($this->seatingCapacity * $this->fare) + (($this->seatingCapacity * $this->fare) * $this->maintenanceCharge);
+  }
+  
+}
+
+?>
