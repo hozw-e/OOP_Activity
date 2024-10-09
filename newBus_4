@@ -1,0 +1,15 @@
+<?php
+
+include Vehicle_1.php;
+
+class Bus extends Vehicle {
+
+  public function seating_capacity($seatingCapacity) {
+    $this->seatingCapacity;
+  }
+}
+
+$Bus = new Bus();
+$Bus->seating_capacity(50);
+
+?>
